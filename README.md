@@ -1,4 +1,6 @@
-# SPY - SPY is kind of a trojan which is takes screenshot, webcam photo, microphone voice record from victim and sends these files by e-mail to attacker.
+# SPY
+
+SPY is kind of a trojan which is takes screenshot, webcam photo, microphone voice record from victim and sends these files by e-mail to attacker.
 ***********************************************************************
 # Usage
 Before use, change the mail settings in code. Add sender, reciever and sender password.
