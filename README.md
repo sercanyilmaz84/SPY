@@ -5,7 +5,7 @@ SPY is kind of a trojan which is takes screenshot, webcam photo, microphone voic
 # Usage
 Before use, change the mail settings in code. Add sender mail address, reciever mail address and senders password.
 
-You have to convert py file to exe.
+You have to convert py file to exe. There is some problems about exe file while using pyinstaller. I will be fixing ;)
 ***********************************************************************
 # Important Note
 This tool created for ethical hacking lessons only. All responsibility is yours. Don't be illegal!!!
