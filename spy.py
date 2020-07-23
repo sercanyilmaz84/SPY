@@ -19,7 +19,7 @@ def getmicrophone():
 	CHANNELS = 2
 	RATE = 44100
 	CHUNK = 1024
-	RECORD_SECONDS = 2
+	RECORD_SECONDS = 15 #You can change the time of mic record.
 	WAVE_OUTPUT_FILENAME = "file1.wav"
 	 
 	audio = pyaudio.PyAudio()
